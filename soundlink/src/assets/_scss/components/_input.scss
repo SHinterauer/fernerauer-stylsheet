@@ -1,0 +1,38 @@
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+input {
+    font-family: inherit;
+    border: 0.3rem solid $onyx-40;
+    border-radius: 0.7rem;
+    background-color: $white;
+    padding: 0.7rem 1.2rem;
+    outline: none;
+    transition: all 200ms ease-in-out;
+    width: 17rem;
+
+    &:focus{
+        border: 0.3rem solid $clay-40;
+    }
+}
+
+label {
+    font-family: inherit;
+    color: $onyx-40;
+    padding-left: 0.7rem;
+}
+
+.wrong{
+    color: $red;
+}
+
+.wrong_border{
+    border: 0.3rem solid $red;
+
+    &:focus{
+        border: 0.3rem solid $red;
+    }
+}
