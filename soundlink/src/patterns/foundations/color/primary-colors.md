@@ -4,14 +4,12 @@ styles: base/variables.scss
 maturity: ready
 control: exclude
 colors: 
-  - name: $white
-    hex: '#ffffff'
-    rgb: rgb(255,255,255)
-  - name: $black
-    hex: '#222222'
-    rgb: rgb(0,0,0)
-  - name: $pink
-    hex: 'hotpink' 
+  - name: $onyx-100
+    hex: '#272742'
+    rgb: rgb(39,39,66)
+  - name: $clay-100
+    hex: '#D49C2E'
+    rgb: rgb(112,156,46)
 ---
 <style>
 .set {

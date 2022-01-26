@@ -1,27 +1,150 @@
 
 .button {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 $small-pad/2 0 0;
-  padding: $base-pad;
-  border: 4px solid $pink;
-  background: $white;
-  cursor: pointer;
-  color: $pink;
-  line-height: 1;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  min-width: 100px;
-  transition: all .2s ease;
+  padding: 0.7rem 1.7rem;
+  border-radius: 0.7rem;
+  margin: 1rem;
+  transition: all 200ms ease-in-out;
+}
+
+.primary{
+  color: $white;
+  background-color: $onyx-60;
+  
+  &:hover,
+  &:focus {
+    background-color: darken($onyx-60, 10);
+  }
+}
+
+.secondary{
+  color: $white;
+  background-color: $onyx-40;
+  
+  &:hover,
+  &:focus {
+    background-color: darken($onyx-40, 10);
+  }
+}
+
+//regular Tags
+.tag_button{
+  color: $onyx-80;
+  padding: 0.3rem 0.5rem;
+  border-radius: 2rem;
+}
+
+.tag_musician{
+  background-color: $onyx-40;
 
   &:hover,
   &:focus {
-    background: $pink;
-    color: $white;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    background-color: darken($onyx-40, 10);
   }
 }
+
+.tag_producer{
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: darken($white, 10);
+  }
+}
+
+.tag_mastering{
+  background-color: $red;
+
+  &:hover,
+  &:focus {
+    background-color: darken($red, 10);
+  }
+}
+
+.tag_singer{
+  background-color: $clay-100;
+
+  &:hover,
+  &:focus {
+    background-color: darken($clay-100, 10);
+  }
+}
+
+.tag_sampling{
+  background-color: $light-green;
+
+  &:hover,
+  &:focus {
+    background-color: darken($light-green, 10);
+  }
+}
+
+//invertedTags
+.tag_invert{
+  border: 0.1rem solid $onyx-80;
+  background-color: none;
+}
+
+.tag_musician_invert{
+  color: $onyx-40;
+
+  &:hover,
+  &:focus {
+    background-color: $onyx-40;
+    color: $onyx-80;
+  }
+}
+
+.tag_producer_invert{
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $white;
+    color: $onyx-80;
+  }
+}
+
+.tag_mastering_invert{
+  color: $red;
+
+  &:hover,
+  &:focus {
+    background-color: $red;
+    color: $onyx-80;
+  }
+}
+
+.tag_singer_invert{
+  color: $clay-100;
+
+  &:hover,
+  &:focus {
+    background-color: $clay-100;
+    color: $onyx-80;
+  }
+}
+
+.tag_sampling_invert{
+  color: $light-green;
+
+  &:hover,
+  &:focus {
+    background-color: $light-green;
+    color: $onyx-80;
+  }
+}
+
+//big Tags
+.tag_big{
+  font-weight: bold;
+  padding: 1.3rem 2.7rem;
+  border-radius: 0.5rem;
+}
+
 .button_animated {
   overflow: hidden;
   padding-right: 0;

@@ -9,29 +9,36 @@ table,fieldset,hr {
 h1, h2, h3, h4, h5, h6 {
   line-height: $headline-line-height;
   color: $headline-font-color;
-  font-family: $robotoslab;
+  font-family: $sourcesans3;
   margin-top: 0;
 }
 
 h1 {
-  font-size: $typo_lion;
+  font-size: $typo_h1;
   margin-bottom: $base-pad;
 }
 
 h2 {
-  font-size: $typo_panther;
+  font-size: $typo_h2;
   margin-bottom: $base-pad;
 }
 
 h3 {
-  font-size: $typo_leopard;
+  font-size: $typo_h3;
   margin-bottom: $base-pad;
 }
 
-h4 {
-  font-family: $roboto;
-  font-size: $typo_cat;
+p{
+  font-size: $typo_body;
+}
+
+.bold{
+  font-size: $typo_body;
+  font-weight: bold;
   margin-bottom: $base-pad;
-  text-transform: uppercase;
-  color: $pink;
+}
+
+.label{
+  font-size: $typo_label;
+  margin-bottom: $large-pad;
 }

@@ -1,12 +1,12 @@
 ---
-title: Roboto
+title: Source Sans 3
 styles: abstracts/fonts.scss
 maturity: ready
 control: exclude
 ---
 <style>
   * {
-    font-family: 'Roboto' !important;
+    font-family: 'Source-Sans-3' !important;
     word-wrap: break-word;
   }
   p {

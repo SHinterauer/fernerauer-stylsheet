@@ -2,58 +2,38 @@
 
 // Sans Serif
 @font-face {
-  font-family: 'Roboto';
-  src:  url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+  font-family: 'Source-Sans-3';
+  src:  url('../fonts/source-sans-3/SourceSans3-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto';
-  src:  url('../fonts/roboto/Roboto-LightItalic.ttf') format('truetype');
+  font-family: 'Source-Sans-3';
+  src:  url('../fonts/source-sans-3/SourceSans3-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  font-family: 'Source-Sans-3';
+  src: url('../fonts/source-sans-3/SourceSans3-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-Italic.ttf') format('truetype');
+  font-family: 'Source-Sans-3';
+  src: url('../fonts/source-sans-3/SourceSans3-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+  font-family: 'Source-Sans-3';
+  src: url('../fonts/source-sans-3/SourceSans3-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-BoldItalic.ttf') format('truetype');
+  font-family: 'Source-Sans-3';
+  src: url('../fonts/source-sans-3/SourceSans3-BoldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
-}
-
-// Slab
-@font-face {
-  font-family: 'Roboto Slab';
-  src:  url('../fonts/roboto-slab/RobotoSlab-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Roboto Slab';
-  src: url('../fonts/roboto-slab/RobotoSlab-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Roboto Slab';
-  src: url('../fonts/roboto-slab/RobotoSlab-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
 }
