@@ -10,6 +10,7 @@
   transition: all 200ms ease-in-out;
 }
 
+//default Buttons
 .primary{
   color: $white;
   background-color: $onyx-60;
@@ -24,6 +25,20 @@
   color: $white;
   background-color: $onyx-40;
   
+  &:hover,
+  &:focus {
+    background-color: darken($onyx-40, 10);
+  }
+}
+
+//nav Buttons
+.nav_button {
+  border-radius: 50%;
+  background-color: $onyx-40;
+  height: 3rem;
+  width: 3rem;
+  padding: 0;
+
   &:hover,
   &:focus {
     background-color: darken($onyx-40, 10);

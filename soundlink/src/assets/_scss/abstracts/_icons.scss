@@ -1,0 +1,16 @@
+
+.icons {
+    height: 5rem;
+    width: 5rem;
+    margin: 2rem;
+}
+
+.hover_icons {
+    transition: all 200ms ease-in-out;
+    filter: brightness(100%);
+
+    &:hover,
+    &:focus {
+        filter: brightness(75%);
+    }
+}
