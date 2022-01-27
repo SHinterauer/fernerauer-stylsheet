@@ -40,8 +40,8 @@
 .tag_musician{
   background-color: $onyx-40;
 
-  &:hover,
-  &:focus {
+  &:not(.no_hover):hover,
+  &:not(.no_hover):focus {
     background-color: darken($onyx-40, 10);
   }
 }
@@ -49,8 +49,8 @@
 .tag_producer{
   background-color: $white;
 
-  &:hover,
-  &:focus {
+  &:not(.no_hover):hover,
+  &:not(.no_hover):focus {
     background-color: darken($white, 10);
   }
 }
@@ -58,8 +58,8 @@
 .tag_mastering{
   background-color: $red;
 
-  &:hover,
-  &:focus {
+  &:not(.no_hover):hover,
+  &:not(.no_hover):focus {
     background-color: darken($red, 10);
   }
 }
@@ -67,8 +67,8 @@
 .tag_singer{
   background-color: $clay-100;
 
-  &:hover,
-  &:focus {
+  &:not(.no_hover):hover,
+  &:not(.no_hover):focus {
     background-color: darken($clay-100, 10);
   }
 }
@@ -76,8 +76,8 @@
 .tag_sampling{
   background-color: $light-green;
 
-  &:hover,
-  &:focus {
+  &:not(.no_hover):hover,
+  &:not(.no_hover):focus {
     background-color: darken($light-green, 10);
   }
 }

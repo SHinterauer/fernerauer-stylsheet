@@ -1,6 +1,6 @@
 ---
 title: Heading
-info: Headings are used to highlight sections of content.
+info: Überschriften werden verwendet um Sektionen hervorzuheben.
 ---
 
 

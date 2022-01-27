@@ -1,6 +1,6 @@
 ---
 title: Button
-info: Use buttons to signal actions.
+info: Buttons werden benutzt um eingabemöglichkeiten zu signalisieren.
 nav: true
 ---
 

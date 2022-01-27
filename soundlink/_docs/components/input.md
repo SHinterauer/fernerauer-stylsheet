@@ -1,6 +1,6 @@
 ---
 title: Input
-info: Inputs are used in forms.
+info: Inputs werden verwendet um Formulare auszufüllen.
 ---
 
 
